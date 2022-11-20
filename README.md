@@ -1,6 +1,8 @@
 # Assignment1
 
-B<h1>igBang Official Website</h1>
+#sccc
+
+<h1>BigBang Official Website</h1>
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
 Essentially, this part is your sales pitch.
