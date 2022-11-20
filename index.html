@@ -1,17 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
-    <div class="pics">
-        <nav>
-            <img src="images/logo.png" class="logo">
-            <!--add a language option*/-->
-        </nav>
+<div class="topnav">
+  <a href="#tour">Tour</a>
+  <a href="#discography">Discography</a>
+  <a href="#profile">Profile</a>
+  <a href="shop">Shop</a>
+  <a class="active" href="#home">Home</a>
+  <img src="images/logo.png"class="split">
+</div>
+<!--
+  <nav>
+    
+    
+    <div class="topnav">
+  
+</div>
+</nav>
+  -->
+    <div class="menu-header">
+        <h4 class="menu-text"></h4>
+        <h4 class="menu-text"></h4>
+        <h4 class="menu-text"></h4>
+        <h4 class="menu-text"></h4>
     </div>
+       
+  
+    <div class="slideshow-container">
+  <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="images/M.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="images/A.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="images/D.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+  <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="images/E.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+ 
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+        </div>
+           
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 </body>
+
 </html>
