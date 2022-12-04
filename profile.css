@@ -1,7 +1,14 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
+  }
+
+  body.profile{
+    background:url("images/wallpaper.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   
   body.home{
@@ -87,7 +94,7 @@ html, body {
     font-weight: Bolder;
     font-size: 60px;
     position: absolute; /* Stay fixed */
-    top: 2150px;
+    top: 2250px;
     left: 49.5%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -934,7 +941,7 @@ html, body {
   .image {
     display: block;
     width: 550px;
-    height: 550px;
+    height: 400px;
   }
 
   .container1 {
@@ -946,10 +953,10 @@ html, body {
   }
 
   .container5 {
-    height: 500px;
+    height: 600px;
     left:40px;
     position: relative;
-    width: 90%;
+    width: 100%;
     top: 400px;
   }
 

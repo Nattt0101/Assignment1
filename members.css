@@ -4,14 +4,21 @@ html, body {
   }
 
 
-  body.members{
+  body.seungri{
     background:url("images/brown-paper-texture-background_64749-1504.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
-  
+  body.dragon{
+    background:url("images/black\ and\ white\ television\ gif.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
   .bg-image {
     /* Full height */
     height: 50%;
@@ -24,6 +31,9 @@ html, body {
 
   .srbg1 { background-image: url("images/seubg.webp"); 
     height:470px}
+
+    .gdbg1 { background-image: url("images/ggg.png"); 
+        height:470px}
   
       .bg-textsl5 {
         font-size: 60px;
@@ -39,7 +49,7 @@ html, body {
   .bg-textsl4 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(80, 80, 80, 0.176); /* Black w/opacity/see-through */
-    color:rgb(77, 22, 61);
+    color:rgb(136, 120, 237);
     font-weight: Bolder;
     font-size: 60px;
     position: absolute; /* Stay fixed */
@@ -125,12 +135,12 @@ html, body {
   
  
   .bg-text {
-    color: rgb(77, 22, 61);
+    color: rgb(29, 22, 77);
     font-weight: normal;
     font-size: 80px;
     position: absolute; /* Stay fixed */
     top: 60%;
-    left: 76%;
+    right: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: auto;
@@ -140,12 +150,12 @@ html, body {
   }
 
   .bg-text1 {
-    color: rgb(77, 22, 61);
+    color: rgb(19, 12, 51);
     font-weight: normal;
     font-size: 35px;
     position: absolute; /* Stay fixed */
     top: 69%;
-    left: 87%;
+    right: 58%;
     transform: translate(-50%, -50%);
     z-index: 2;
     width: auto;
@@ -925,7 +935,7 @@ html, body {
     left:50px;
     position: relative;
     width: 600px;
-    top: 400px;
+    top: 350px;
   }
 
   /* The dropdown container */
