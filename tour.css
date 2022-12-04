@@ -1,9 +1,14 @@
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
+    
   }
   
+  body.tour{
+background-color: #0c1326;
+
+  }
+
   body.home{
     background:url("images/gif2.gif") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -55,46 +60,26 @@ html, body {
     background-size: cover;
   }
 
-  .pbg1 { background-image: url("images/pp2.jpg"); 
-    height:570px;}
+.details{
+    top:1000px;
+}
 
-  .dbg1 { background-image: url("images/bg1.jpg"); 
-  height:470px;}
-  
-  
-  .rbg1 { background-image: url("images/rbg1.gif"); 
+  .tourbg { background-image: url("images/bg1.jpg"); 
     height:470px}
-  
-    .slbg1 { background-image: url("images/gif.gif"); 
-      height:470px}
-  
-
-      .bg-textsl5 {
-        font-size: 60px;
-        position: absolute; /* Stay fixed */
-        top: 2800px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 2;
-        width: 1255px;
-        padding: 20px;
-      }
 
   .bg-textsl4 {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(80, 80, 80, 0.176); /* Black w/opacity/see-through */
-    color:rgb(48, 208, 53);
+    color: rgb(64, 0, 255);
     font-weight: Bolder;
     font-size: 60px;
     position: absolute; /* Stay fixed */
-    top: 2150px;
-    left: 49.5%;
+    top: 1600px;
+    left: 48.5%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    width: 1210px;
+    width: 1255px;
     padding: 20px;
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
   }
 
 
@@ -142,7 +127,7 @@ html, body {
     top: 1600px;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 2;
+    z-index: 1;
     width: 1255px;
     padding: 20px;
     text-align: center;
@@ -155,7 +140,7 @@ html, body {
     color: white;
     font-weight: bold;
     font-size: 80px;
-    border: 10px solid darkorange;
+    border: 10px solid rgb(255, 255, 255);
     position: absolute; /* Stay fixed */
     top: 58%;
     left: 50%;
@@ -560,7 +545,7 @@ html, body {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: black;
-    color: yellow;
+    color: rgb(208, 161, 5);
   }
   
   .topnav a:active {
@@ -773,6 +758,126 @@ html, body {
     to {transform:scale(1)}
   }
   
+  /*Discography*/
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+
+
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .container2 {
+    height: 1450px;
+    left:110px;
+    position: relative;
+    width: 1000px;
+    top: 1300px;
+    background-color: rgba(0, 0, 0, 0.221);
+  }
+  
+  .container1 {
+    height: 350px;
+    left:110px;
+    position: relative;
+    width: 1000px;
+    top: 1100px;
+  }
+
+  .container {
+    height: 280px;
+    left:350px;
+    position: relative;
+    width: 500px;
+    top: 100px;
+  }
+
+  #contactbb{
+    height: 300px;
+    left:90px;
+    position: relative;
+    width: 500px;
+    top: 1500px;
+    background-color: rgba(240, 242, 249, 0.988);
+  }
+
+  #bookbb{
+    height: 765px;
+    left:690px;
+    position: relative;
+    width: 500px;
+    top: 1200px;
+    background-color: rgba(240, 242, 249, 0.988);
+  }
+
+  .container {
+    height: 500px;
+    left:100px;
+    position: relative;
+    width: 1000px;
+    top: 700px;
+    background-color:rgba(240, 242, 249, 0.988);
+  }
+
+  .row{
+    float: inline-start;
+    height: 770px;;
+  }
+
+
+  
+  .image {
+    display: block;
+    width: 500px;
+    height: 500px;
+  }
+  
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0;
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #d8c91a;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .column {
+    float: left;
+    width: 55%;
+  }
+  
   .topnav2 {
     background-color: rgb(0, 0, 0);
     overflow: hidden;
@@ -809,8 +914,91 @@ html, body {
     width: 100px;
     opacity: 1;
   }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container3 {
+    position: relative;
+    left:280px;
+    width:1000px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    width: 300px;
+    padding: 0px;
+    margin-top: -50px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 10px;
+    border-radius: 3px 0 0 3px;
+  }
 
   
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: darkorange;
+    width:700px;
+    height:50px;
+    color: white;
+    font-weight:bold;
+  }
+  
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column1 {
+    float: left;
+    width: 11.65%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
   @-webkit-keyframes fade {
     from {opacity: .5}
     to {opacity: 2}
@@ -848,112 +1036,12 @@ html, body {
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 100px}
   }
-  
-  
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-}
 
-
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .container {
-    height: 240px;
-    left:20px;
-    position: relative;
-    width: 100px0;
-    top: 685px;
-  }
-  
-  
-  .image1 {
-    display: block;
-    width: 250px;
-    height: 250px;
-  }
-  
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0px;
-    right: 0;
-    width: 250px;
-    height: 250px;
-    opacity: 0;
-    transition: 1s ease;
-    background-color:navy;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-  
-  .text{
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  
-  .column1 {
-    float: left;
-    width: 19%;
-  }
-  
-  
-  .column {
-    float: left;
-    width: 45%;
+  .break{
+    height:300px;
   }
 
-  .image {
-    display: block;
-    width: 550px;
-    height: 550px;
-  }
-
-  .container1 {
-    height: 350px;
-    left:200px;
-    position: relative;
-    width: 70%;
-    top: 100px;
-  }
-
-  .container5 {
-    height: 500px;
-    left:40px;
-    position: relative;
-    width: 90%;
-    top: 400px;
-  }
-
-  /* The dropdown container */
+ /* The dropdown container */
 .dropdown {
     float: right;
     overflow: hidden;
@@ -1008,6 +1096,76 @@ html, body {
   }
 
   ul {list-style-type: none;}
-  body {font-family: Verdana, sans-serif;}
-  
-  
+body {font-family: Verdana, sans-serif;}
+
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #9499e0;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
