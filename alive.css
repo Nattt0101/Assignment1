@@ -23,6 +23,15 @@ html, body {
     background-size: cover;
   }
 
+  body.alive{
+    
+    background-color: rgba(193, 236, 255, 0.389);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
   
 body.flower{
     
@@ -65,6 +74,11 @@ body.flower{
     background-size: cover;
   }
 
+.abg1{
+    background-image: url("images/alive.jpg");
+    height:470px
+}
+
   .fbg1 { background-image: url("images/flowerroad.jpg"); 
     height:470px}
 
@@ -104,7 +118,7 @@ body.flower{
   .bg-textsl3 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.137); /* Black w/opacity/see-through */
-    color: rgb(231, 125, 125);
+    color: rgb(255, 255, 255);
     font-weight: normal;
     font-size: 30px;
     position: absolute; /* Stay fixed */
@@ -121,7 +135,7 @@ body.flower{
   .bg-textsl2 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.143); /* Black w/opacity/see-through */
-    color: rgb(237, 125, 125);
+    color: rgb(255, 255, 255);
     font-weight: normal;
     font-size: 30px;
     position: absolute; /* Stay fixed */
@@ -138,7 +152,7 @@ body.flower{
   .bg-textsl1 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.205); /* Black w/opacity/see-through */
-    color: rgb(219, 125, 125);
+    color: rgb(255, 255, 255);
     font-weight: normal;
     font-size: 30px;
     position: absolute; /* Stay fixed */
@@ -155,7 +169,7 @@ body.flower{
   .bg-textsl {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0, 0, 0, 0.153); /* Black w/opacity/see-through */
-    color: rgb(215, 142, 142);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 80px;
     border: 10px solid darkorange;
@@ -173,7 +187,7 @@ body.flower{
   .bg-text {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 80px;
     border: 10px solid #f1f1f1;
@@ -815,7 +829,7 @@ body.flower{
    height: 300px;
    left:100px;
    position: relative;
-   width: 1000px;
+   width: 500px;
    top: 100px;
  }
 
