@@ -604,9 +604,8 @@ img{
   text-decoration: none;
   font-size: 17px;
 }
-*/
-.active{
-  font-style: none;
+*/  .active{
+  font-style:normal;
 }
 
 * {box-sizing: border-box}
@@ -647,10 +646,6 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
 /* Caption text 
 .text {
@@ -669,7 +664,7 @@ img {vertical-align: middle;}
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 70;
+  top: 0;
 }
 
 /* The dots/bullets/indicators */

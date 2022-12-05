@@ -621,7 +621,7 @@ body.daesung{
   }
   */
   .active{
-    font-style: none;
+    font-style:normal;
   }
   
   * {box-sizing: border-box}
@@ -680,7 +680,7 @@ body.daesung{
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 70;
+    top: 0;
   }
   
   /* The dots/bullets/indicators */

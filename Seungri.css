@@ -611,9 +611,8 @@ html, body {
     text-decoration: none;
     font-size: 17px;
   }
-  */
-  .active{
-    font-style: none;
+  */  .active{
+    font-style:normal;
   }
   
   * {box-sizing: border-box}
@@ -672,7 +671,7 @@ html, body {
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
-    top: 70;
+    top: 0;
   }
   
   /* The dots/bullets/indicators */
