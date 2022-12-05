@@ -1,0 +1,12 @@
+.center{
+    width: 200px;
+}
+
+.column {
+    float: left;
+    width: 1000px;
+  }
+
+  body{
+    background-color: beige;
+  }
