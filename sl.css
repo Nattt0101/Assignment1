@@ -22,6 +22,16 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
   }
+
+  
+body.flower{
+    
+    background-color: rgba(247, 171, 164, 0.389);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   
   body.Remember{
     
@@ -54,6 +64,9 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .fbg1 { background-image: url("images/flowerroad.jpg"); 
+    height:470px}
 
   .srbg1 { background-image: url("images/seubg.webp"); 
     height:470px}
@@ -791,11 +804,19 @@ html, body {
     top: 100px;
   }
 
+  .container5 {
+    height: 500px;
+    left:50px;
+    position: relative;
+    width: 600px;
+    top: 100px;
+  }
+
   .container {
     height: 300px;
     left:100px;
     position: relative;
-    width: 500px;
+    width: 1000px;
     top: 100px;
   }
 
@@ -1007,6 +1028,7 @@ html, body {
   .break{
     height:300px;
   }
+
   
   /* The dropdown container */
 .dropdown {
@@ -1014,6 +1036,7 @@ html, body {
     overflow: hidden;
   }
   
+
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 16px;
@@ -1026,6 +1049,7 @@ html, body {
     margin: 0; /* Important for vertical align on mobile phones */
   }
   
+
   /* Add a red background color to navbar links on hover */
   .navbar a:hover .dropbtn {
     color: yellow;
@@ -1042,6 +1066,7 @@ html, body {
     z-index: 10;
   }
   
+
   /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
@@ -1052,11 +1077,13 @@ html, body {
     text-align: right;
   }
   
+
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: #ddd;
   }
   
+
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
