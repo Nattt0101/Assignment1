@@ -4,6 +4,7 @@ html, body {
   
 }
 
+/*body background*/
 body.home{
   background:url("images/gif2.gif") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -56,6 +57,7 @@ body.StillLife{
   background-size: cover;
 }
 
+/*half backgrnd*/
 .dbg1 { background-image: url("images/gif7.gif"); 
   height:470px}
 
@@ -985,6 +987,7 @@ img {
   margin: 0;
 }
 
+/*half backgrounds*/
 .pbg1 {
   background-image: url(images/pp2.jpg);
   height: 300px;
