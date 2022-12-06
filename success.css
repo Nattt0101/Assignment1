@@ -2,6 +2,14 @@
     width: 200px;
 }
 
+body.success{
+  background:url("images/confetti-4.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .column {
     float: left;
     width: 1000px;
@@ -10,3 +18,23 @@
   body{
     background-color: beige;
   }
+
+  .center {
+    width: 100px;
+    left: 550px;
+    position: absolute;
+}
+
+  @media only screen and (max-width: 700px){
+
+    .modal-content {
+        width: 100%;
+    }
+
+  .center {
+    width: 200px;
+    left: 100px;
+    position: absolute;
+  }
+
+}
