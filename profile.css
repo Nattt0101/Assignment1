@@ -174,22 +174,6 @@ html, body {
     font-family: 'Lobster', cursive;
   }
   
-  .bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    color: white;
-    font-weight: bold;
-    font-size: 80px;
-    border: 10px solid #f1f1f1;
-    position: absolute; /* Stay fixed */
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 700px;
-    padding: 20px;
-    text-align: center;
-  }
   
   
   /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -898,6 +882,11 @@ html, body {
     height: 250px;
   }
   
+  .image2 {
+    display: block;
+    width: 250px;
+    height: 250px;
+  }
   
   .overlay {
     position: absolute;
@@ -1017,4 +1006,178 @@ html, body {
   ul {list-style-type: none;}
   body {font-family: Verdana, sans-serif;}
   
+ 
+  
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+      width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    background-color: black;
+    overflow: scroll;
+    position: fixed;
+    top: 870px;
+    z-index: 7;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 130px;
+}
+
+div.slideshow-container {
+  max-width: 300px;
+  margin: auto;
+  width: 400px;
+  position: relative;
+  padding-top: 230px;
+}
+
+img {
+  width: 60px;
+  opacity: 1;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.dropdown .dropbtn {
+  font-size: 10px;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.pbg1 {
+  background-image: url(images/itl.cat_seungri-wallpaper_1261933.png);
+  height: 850px;
+}
+
+.dbg1 { background-image: url("images/gif7.gif"); 
+  height:300px}
+
+.rbg1 { background-image: url("images/rbg1.gif"); 
+  height:300px}
+
+  .slbg1 { background-image: url("images/gif.gif"); 
+    height:300px}
+
+
+    /*home*/
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 70%;
+      width: auto;
+      padding: 1px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+  }
+
+  .contact {
+    width: 100%;
+    background-color: black;
+    overflow: scroll;
+    position: absolute;
+    bottom: 0;
+    z-index: 7;
+    height: 50px;
+}
+
+.bg-text {
+  color: rgb(47, 37, 239);
+  font-weight: bold;
+  font-size: 50px;
+  position: absolute; /* Stay fixed */
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 700px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container1 {
+  height: 350px;
+  left: 5px;
+  position: relative;
+  width: 98%;
+  top: 100px;
+}
+
+
+.column {
+  float: left;
+  width: 0;
+}
+
+.column1 {
+  float: left;
+  width: 36%;
+}
+
+.container {
+  height: 250px;
+  float: none;
+  position: relative;
+  top: 2285px;
+}
+
+.image2{
+  visibility: hidden;
+}
+
+.image1 {
+  visibility: hidden;
+}
+
+.image{
+  visibility: hidden;
+}
+
+.bg-textsl4{
+  visibility: hidden;
+}
+
+.container5 {
+  height: 500px;
+  left: 0px;
+  position: relative;
+  width: 415px;
+  top: 750px;
+}
+
+.break{
+  height: 5000px;
+  background-color: #000;
+}
+
+}
+
+.break
+{
+  height:0;
+}
   
